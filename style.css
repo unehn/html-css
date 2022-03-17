@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: rgb(10, 96, 172);
+}
+
+.footer {
+    background-color: rgb(117, 39, 39);
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    height: 10em;
+}
+.columnA {
+    background-color: blueviolet;
+
+}
+
+.columnB {
+    background-color: aquamarine;
+}
+
+.columnC {
+    background-color: bisque;
+}
